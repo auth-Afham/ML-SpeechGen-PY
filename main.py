@@ -150,8 +150,8 @@ def speech_recognition_loop(dataset_file):
                         # Append the recent_words to the dataset CSV file
                         append_recent_words_to_dataset(recent_words, DATASET_FILE)
 
-                    # Train the model using the data from the dataset
-                    train_model_with_dataset(DATASET_FILE)
+                # Train the model using the data from the dataset
+                train_model_with_dataset(DATASET_FILE)
 
                 # Remove the first element
                 recent_words = recent_words[1:]
