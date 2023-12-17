@@ -11,13 +11,14 @@ This is a simple speech recognition and prediction application written in Python
   - `scikit-learn`
   - `joblib`
   - `pyttsx3`
+  - `matplotlib`
 
 ## Usage
 
 1. Run the application:
 
    ```bash
-   python speech_recognition_app.py
+   python main.py
    ```
 
 2. Speak something when prompted. The application will recognize your speech, predict the next word, and read it back to you.
