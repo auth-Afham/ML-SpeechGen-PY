@@ -1,1 +1,40 @@
-This Python script integrates speech recognition with a machine learning model (Random Forest) to predict and speak the words spoken by the user. It captures audio input, converts it to text using the Google Web Speech API, and processes the recognized words to build a dataset. The script then trains a Random Forest classifier with the dataset, predicts the next spoken words, and uses text-to-speech to articulate the prediction. The script allows continuous speech recognition until the user exits. The dataset is stored in a CSV file, and the trained model is saved for future use.
+# Speech Recognition and Prediction App
+
+This is a simple speech recognition and prediction application written in Python. The application listens to your speech, recognizes the spoken words, and predicts the next word based on the patterns learned from previous input.
+
+## Requirements
+
+- Python 3.x
+- Required Python packages (`pip install -r requirements.txt`):
+  - `speech_recognition`
+  - `numpy`
+  - `scikit-learn`
+  - `joblib`
+  - `pyttsx3`
+
+## Usage
+
+1. Run the application:
+
+   ```bash
+   python speech_recognition_app.py
+   ```
+
+2. Speak something when prompted. The application will recognize your speech, predict the next word, and read it back to you.
+
+3. To exit the application, say "exit."
+
+## Features
+
+- The application continuously learns from your input and updates its prediction model.
+- Predicts the next word in real-time based on the learned patterns.
+- Uses a RandomForestClassifier for word prediction.
+- Provides a simple command ("exit") to exit the application.
+
+## Additional Notes
+
+- The dataset is stored in a CSV file (`dataset.csv`), and recognized words are stored in another CSV file (`recognized_words.csv`).
+- The model is saved as `model.pkl` and is updated as the program runs.
+- Adjust the "exit" keyword in the code to your desired keyword for exiting the application.
+
+Feel free to explore and customize the application for your specific use case!
