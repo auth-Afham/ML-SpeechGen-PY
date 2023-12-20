@@ -1,5 +1,9 @@
 # Speech Recognition and Prediction App
 
+Here's an image of my project:
+
+![Project Image](https://www.websitewizard.tv/wp-content/uploads/2018/09/chat-icon.png)
+
 This is a simple speech recognition and prediction application written in Python. The application listens to your speech, recognizes the spoken words, and predicts the next word based on the patterns learned from previous input.
 
 ## Requirements
