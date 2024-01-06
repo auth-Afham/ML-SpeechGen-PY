@@ -15,6 +15,10 @@ This is a simple speech recognition and prediction application written in Python
   - `pyttsx3`
   - `matplotlib`
 
+## Download Executable Version
+
+You can download the pre-built executable version of this application from [this link](https://drive.google.com/file/d/1l5IGpbfNO3til2Avd7KCZZG0wEedv7av/view?usp=sharing "Google Drive Executable"). Run the executable to install and use the application locally.
+
 ## Usage
 
 1. Run the application:
